@@ -1,0 +1,113 @@
+.counter-container {
+  background-image: url(".\\Image.png");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.mycounter {
+  font-family: 'Lobster', cursive; /* Or any other fancy font */
+  font-size: 50px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  font-size: 4rem;
+  margin-bottom: 0.1rem;
+  color: #7ED4AD;
+  text-decoration: underline;
+}
+
+.mycounter1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  color: #555;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 2 rem;
+  margin-bottom: 0.1rem;
+  color: #8D77AB;
+  /* text-decoration: underline; */
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 0.1rem;
+  text-align: center;
+  color: #81BFDA;
+}
+
+.count {
+  font-size: 1.5rem;
+  margin-bottom: 0.1rem;
+  text-align: center;
+  color: #FAB12F;
+}
+
+.value-status {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-style: emphazised;
+  color: whitesmoke;
+  background-color: #F72C5B;
+  /* text-decoration: underline; */
+}
+
+.Btn-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.Btn1 {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgray;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Btn2 {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgray;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.Btn1:hover {
+  background-color: lightgreen;
+  transform: scale(1.05);
+}
+
+.Btn2:hover {
+  background-color: lightcoral;
+  transform: scale(1.05);
+}
+
+.reset {
+  color: whitesmoke;
+  background-color: red;
+}
+
+.reset:hover {
+  background-color: lightsteelblue;
+}
+.footer {
+  position: absolute;
+  bottom: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  font-size: 12px;
+  color: #888; /* Gray color for the footer text */
+}
