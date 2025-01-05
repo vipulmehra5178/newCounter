@@ -10,9 +10,7 @@
     "web-vitals": "^4.2.4"
   },
   
-    "dependencies": {
-      "web-vitals": "^4.2.4"
-    },
+    
   
   "scripts": {
     "start": "react-scripts start",
@@ -36,7 +34,10 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "dependencies": {
+      "web-vitals": "^4.2.4"
+    }
   }
   
 }
